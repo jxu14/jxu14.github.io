@@ -1,0 +1,47 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+
+.pic{
+    position:relative;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#firstfood{
+  position:relative;
+  background-image: url("steak.jpg");
+}
+#secondfood{
+  position: relative;
+  background-image: url("http://www.fortfindlaycoffee.com/wp-content/uploads/2015/04/fresh_doughnuts.jpg")
+}
+
+
+
+#thirdfood{
+  position:relative;
+  background-image:url("https://www.chowstatic.com/assets/2014/09/30741_easy_bbq_baby_back_ribs_3000x2000.jpg");
+}
+.title{
+  color:white;
+  font-size: 100px;
+}
+
+h2{
+  color:white;
+  position:absolute;
+  top:100px;
+  text-align: center;
+  width:100%;
+}
+
+.description{
+  font-size:30px;
+  margin: 70px;
+  background-color:white;
+}
